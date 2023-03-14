@@ -12,3 +12,4 @@ if __name__ == '__main__':
     for filename in filenames:
         total_vendas = somar_vendas(filename)
         print(f"{filename}: R$ {total_vendas}")
+
