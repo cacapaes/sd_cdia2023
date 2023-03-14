@@ -1,6 +1,5 @@
 import sys
 
-
 def somar_vendas(filename,qtd):
    file = open(filename, 'r')
    total = 0;
