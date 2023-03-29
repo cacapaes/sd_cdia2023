@@ -1,4 +1,5 @@
 import sys
+import time
 
 def somar_vendas(filename,qtd):
    file = open(filename, 'r')
@@ -6,6 +7,7 @@ def somar_vendas(filename,qtd):
    for linha in file:
        total = total + float(linha)
        qtd[0] = qtd[0] + 1
+       time.sleep(0.001)
    return total
    
 if __name__ == '__main__':
